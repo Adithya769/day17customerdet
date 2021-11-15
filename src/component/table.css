@@ -1,0 +1,38 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    /* text-align: center; */
+}
+table{
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    /* position: absolute; */
+}
+.table_header{
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+}
+.table_header tr th{
+    padding: 10px;
+    background-color: aquamarine;
+    color: #1717e8;
+}
+.button_del:hover{
+    background-color: blue;
+    color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: whitesmoke solid 1px;
+}
+tr:nth-child(even){
+    background-color: #d8cbcb
+}
+.table_body{
+    text-transform: capitalize;
+}
+
